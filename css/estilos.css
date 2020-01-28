@@ -1,0 +1,167 @@
+
+
+aside{
+		background:#5b7989;
+    border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+          		border-radius:10px 10px 0px 0px;
+		font-family:'Dancing Script', cursive;
+	}
+	#h2{
+		display:flex;
+		justify-content:space-between;
+	}
+
+
+ul	{
+	margin-top:30px;
+}
+
+		
+h1{
+	       padding-left:20px;
+            color: white;
+            text-shadow: 2px 2px #02010a;
+            width: 70%;
+}
+	nav{
+			padding-right:20px;
+		}
+#img img{
+border-radius:10px 0px 0px 0px;
+}
+	
+a{
+	width:100%;
+font-size:20px;
+text-decoration:none;
+}
+header {
+width:100%;
+animation: imagen 1s;
+text-align:center;
+background:#82c3a6;
+}
+
+
+section{
+	font-family:'Dancing Script', cursive;
+	display:flex;
+	  flex-flow: row wrap;
+	justify-content: space-around;
+	align-items: center;
+	background:#d5c75f;
+	text-align:center;
+			width:100%;
+
+}
+#imagen img{
+		width:586px;
+	height:386px;
+}
+
+#imagen:hover{
+	transform:rotate(10deg);
+	box-shadow: 2px 0px 0px 0px #82c3a6;
+}
+#imagen1:hover{
+transform: translate(20px,-5px);
+box-shadow: 2px 0px 0px 0px #82c3a6;
+}
+span{
+	display:flex;
+	font-family:'Dancing Script', cursive;
+    text-align:center;	
+     width:100%;
+     background:#C6d5c5;
+     border-radius:0px 0px 10px 10px;
+ }
+ span div{
+	 font-size:20px;
+ }
+ #contacto{
+	 display:flex;
+	 flex-direction:column;
+	flex-wrap:no-wrap;
+    padding-left:20px;
+ }
+ #terminos{
+	 display:flex;
+	 flex-direction:column;
+	flex-wrap:no-wrap;
+	padding-left:30px;
+ }
+ #redes{
+	 display:flex;
+	 flex-direction:column;
+	flex-wrap:no-wrap;
+	 
+ }
+ #derechos{
+display:flex;
+	 flex-direction:column;
+	flex-wrap:no-wrap; 
+padding-left:50px;
+	}
+	@media (max-width:900px){
+		span{
+		display:flex;
+	 flex-direction:column;
+	 flex-wrap:wrap;
+	 width:100%;
+		}
+		
+ @media (max-width:900px){
+	 h1{
+		 padding-left:100px;
+}
+ @media (max-width:900px){
+	 nav{
+		 display:flex;
+		 justify-content:center;
+	     text-align:center;
+         width:100%
+}
+ 	 @media (max-width:900px){
+	 #h2 {
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	text-align:center;
+    width:100%
+}
+
+@media (max-width:900px){
+#contenido img{
+	width:100%;
+}
+}
+@media (max-width:600px){
+ #imagen img{
+	width:100%;
+}		
+}
+@media (max-width:600px){
+ #imagen1 img{
+	width:100%;
+}		
+}
+@media (max-width:900px){
+#contacto{
+	display:flex;
+	flex-direction:column;
+}
+}
+
+	 @-webkit-keyframes imagen {
+    0%{margin-top: 160%;}
+    60%{margin-top: -5%;}
+    100%{margin-top: 0;}
+ }
+ font-face{
+ font-family:font-family: 'Dancing Script', cursive;
+ src:url(https://fonts.googleapis.com/css?family=Dancing+Script&display=swap');
+ }
+
+
+
